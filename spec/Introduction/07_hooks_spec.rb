@@ -19,7 +19,7 @@ describe Card do
         @card = Card.new('Ace', 'Spade')
     end
 
-    card = Card.new('Ace', 'Spade')
+    # card = Card.new('Ace', 'Spade')
     it 'has a rank' do
         expect(@card.rank).to eq('Ace')
     end
