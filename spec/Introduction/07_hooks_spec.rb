@@ -1,4 +1,10 @@
-require 'spec_helper'
+    # require 'spec_helper'         # says find the file based on your path of execution
+                                    # i.e. form where you are running/executing the file
+                                    # from perspective of your execution or standing path 
+
+require_relative '../spec_helper'       # says find the file based on my path of execution
+                                        # i.e. find form where the file path where the code is written
+                                        # from perspective of your file path executed
 
 class Card
     attr_reader :rank, :suite
