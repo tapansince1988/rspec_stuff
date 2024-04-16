@@ -11,7 +11,7 @@ RSpec.describe "a random double" do
         # expect(stuntman.fall_of_lader).to be_nil
         # allow(stuntman).to receive(:fall_of_lader).and_return('Ouch')
         # expect(stuntman.fall_of_lader).to eq('Ouch')
-        # # The syntax above is very good andwe get lots of room to dynamically assign method but it gets really long and overdone
+        # # The syntax above is very good and we get lots of room to dynamically assign method but it gets really long and overdone
 
         stuntman = double('Mr. Danger')
         allow(stuntman).to receive_messages(:fall_of_lader => 'Ouch', light_on_fire: true)

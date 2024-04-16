@@ -95,4 +95,7 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 =end
+# if config.files_to_run.one?
+#   config.default_formatter = "doc"
+# end
 end
